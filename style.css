@@ -1,0 +1,6 @@
+*{
+background-image: url(./img/main-banner.jpg);
+}
+.hearder{
+    display: flex;
+}
