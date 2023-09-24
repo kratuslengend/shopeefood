@@ -1,0 +1,24 @@
+.login{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ee4d2d;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+input{
+    width: 200px;
+    height: 40px;
+   
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: #0288d1;
+    border-radius: 5px;
+}

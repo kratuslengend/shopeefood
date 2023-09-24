@@ -1,6 +1,81 @@
-*{
-background-image: url(./img/main-banner.jpg);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
-.hearder{
-    display: flex;
+.logo {
+  margin: 20px 100px;
+}
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  display: flex;
+}
+.header ul {
+  display: flex;
+  margin: 20px 0px;
+}
+.header ul li {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.header ul li :hover {
+  color: #ee4d2d;
+  box-shadow: #ee4d2d;
+}
+.header ul li a {
+  text-decoration: none;
+  color: black;
+}
+.login button {
+  margin: 20px;
+  list-style: none;
+  color: #ee4d2d;
+  border-color: #ee4d2d;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+.main-content {
+  background-image: url(./img/main-banner.jpg);
+}
+.search {
+  height: 100vh;
+  width: 500px;
+  margin: 50px 80px;
+}
+.search a {
+  text-decoration: none;
+  
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: #fff; 
+  height: 40px;
+  width: 40px;
+
+}
+.search h3 {
+  color: #fff;
+}
+.ad input {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+}
+.ad {
+  color: #fff;
+}
+.category{
+gap: 10px;
+margin-top: 40px;
+height: 200px;
+width: 100%;
+
+}
+.list-food {
+  color: white;
+  width: 800px;
+
 }
